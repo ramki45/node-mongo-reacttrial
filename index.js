@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
-const URL = "mongodb+srv://ramki:pandian5!@b29wd.hemwi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const URL = "mongodb+srv://ramki45:pandian5!@cluster0.vna1k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 app.use(express.json());
 app.use(cors({
     origin: "*"
