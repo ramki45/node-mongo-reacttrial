@@ -109,4 +109,4 @@ app.delete('/user/:id',async function(req,res){
     //  user.splice(index,1);
     //  res.json({message : "Deleted!"})
 })
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
